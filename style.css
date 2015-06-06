@@ -1,5 +1,4 @@
 @charset "utf-8";
-/* CSS Document */
 *{ margin:0; padding:0; list-style:none; border:none;}
 @font-face{
 	src:url(font/Klavika-Light_2.otf);
@@ -16,6 +15,11 @@
 @font-face{
 	src:url(font/Klavika-Medium.otf);
 	font-family:bold;
+}
+
+
+h1 {
+	font-family:light;	
 }
 .wraper{
 	width:100%;
@@ -53,7 +57,7 @@
 	width:100%;
 	background:/*url(images/bg.png),*/ #006287;
 	border-radius: 5px;
-	padding:100px 0px;
+	padding: 40px 0px;
 }
 
 .video-area ul{
@@ -85,7 +89,7 @@
 .email-area input[type=email]{
 	width:94%;
 	height:40px;
-	border-radius:10px;
+	border-radius:5px;
 	background:url(images/email-bg.png) right;
 	padding:2% 3%;
 	border:1px solid #257998;
@@ -105,7 +109,7 @@
 	font-family:bold;
 	margin:10px 0px;
 	font-size:18px;
-	border-radius:10px;
+	border-radius:5px;
 }
 
 .contaent{
