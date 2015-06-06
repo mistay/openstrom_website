@@ -140,8 +140,8 @@ h1 {
 	list-style:none;
 }
 .contaent li{
+	width:40%;
 	display:inline-block;
-	width:383px;
 	vertical-align:top;
 	padding-top:95px;
 	font-family:light;
